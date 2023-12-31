@@ -1,5 +1,6 @@
 package org.algorithms.array.search;
 
+// WAP to perform linear search in an array and return the index of an element(if found) or -1(if not found).
 public class LinearSearch {
     public static void main(String[] args) {
         LinearSearch linearSearch = new LinearSearch();
