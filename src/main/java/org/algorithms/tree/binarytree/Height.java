@@ -12,13 +12,13 @@ public class Height {
         BinaryTree binaryTree = new BinaryTree(new BinaryTreeNode(1));
 
         // Adding nodes
-//        binaryTree.root.left = new BinaryTreeNode(2);
-//        binaryTree.root.right = new BinaryTreeNode(3);
-//        binaryTree.root.left.left = new BinaryTreeNode(4);
-//        binaryTree.root.left.right = new BinaryTreeNode(5);
-//        binaryTree.root.right.left = new BinaryTreeNode(6);
-//        binaryTree.root.right.right = new BinaryTreeNode(7);
-//        binaryTree.root.right.right.left = new BinaryTreeNode(8);
+        binaryTree.root.left = new BinaryTreeNode(2);
+        binaryTree.root.right = new BinaryTreeNode(3);
+        binaryTree.root.left.left = new BinaryTreeNode(4);
+        binaryTree.root.left.right = new BinaryTreeNode(5);
+        binaryTree.root.right.left = new BinaryTreeNode(6);
+        binaryTree.root.right.right = new BinaryTreeNode(7);
+        binaryTree.root.right.right.left = new BinaryTreeNode(8);
 
         Height height = new Height();
         System.out.println("Recursively: " + height.findHeightRecursively(binaryTree.root));
